@@ -5,7 +5,7 @@ type Email = Brand<string, "Email">;
 
 const password = "1231423" as Password;
 
-const email = "mpocock@me.com" as Email;
+const email = "mpocock@me.com" as Email | Password;
 
 let passwordSlot: Password;
 
